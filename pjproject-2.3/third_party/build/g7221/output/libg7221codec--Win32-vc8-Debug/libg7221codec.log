@@ -1,0 +1,66 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:15。
+     1>節點 5 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\g7221\libg7221codec.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../.. /I../../g7221/common /I../../../pjlib/include /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\libg7221codec--Win32-vc8-Debug\\" /Fd".\output\libg7221codec--Win32-vc8-Debug\\vc120.pdb" /FR".\output\libg7221codec--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\..\g7221\common\basic_op.c ..\..\g7221\common\common.c ..\..\g7221\common\huff_tab.c ..\..\g7221\common\tables.c ..\..\g7221\decode\coef2sam.c ..\..\g7221\decode\dct4_s.c ..\..\g7221\decode\decoder.c ..\..\g7221\encode\dct4_a.c ..\..\g7221\encode\encoder.c ..\..\g7221\encode\sam2coef.c
+         basic_op.c
+         common.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\common.c : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\defs.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\huff_def.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\huff_tab.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\tables.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         huff_tab.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\huff_tab.c : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\defs.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\huff_def.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         tables.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\tables.c : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\defs.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         coef2sam.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\decode\coef2sam.c : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\defs.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\tables.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         dct4_s.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\decode\dct4_s.c : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\defs.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\decode\dct4_s.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         decoder.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\decode\decoder.c : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\defs.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\tables.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\huff_def.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         dct4_a.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\encode\dct4_a.c : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\defs.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\encode\dct4_a.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         encoder.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\encode\encoder.c : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\defs.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\huff_def.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\tables.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         sam2coef.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\encode\sam2coef.c : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\defs.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\g7221\common\tables.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\g7221\.\output\libg7221codec--Win32-vc8-Debug\libg7221codec.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libg7221codec-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(libg7221codec) does not match the Library's OutputFile property value (libg7221codec-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\libg7221codec-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\libg7221codec--Win32-vc8-Debug\\basic_op.obj"
+         ".\output\libg7221codec--Win32-vc8-Debug\\common.obj"
+         ".\output\libg7221codec--Win32-vc8-Debug\\huff_tab.obj"
+         ".\output\libg7221codec--Win32-vc8-Debug\\tables.obj"
+         ".\output\libg7221codec--Win32-vc8-Debug\\coef2sam.obj"
+         ".\output\libg7221codec--Win32-vc8-Debug\\dct4_s.obj"
+         ".\output\libg7221codec--Win32-vc8-Debug\\decoder.obj"
+         ".\output\libg7221codec--Win32-vc8-Debug\\dct4_a.obj"
+         ".\output\libg7221codec--Win32-vc8-Debug\\encoder.obj"
+         ".\output\libg7221codec--Win32-vc8-Debug\\sam2coef.obj"
+         libg7221codec.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\g7221\.\output\libg7221codec--Win32-vc8-Debug\libg7221codec.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\libg7221codec--Win32-vc8-Debug\libg7221codec.bsc" ".\output\libg7221codec--Win32-vc8-Debug\\basic_op.sbr" ".\output\libg7221codec--Win32-vc8-Debug\\common.sbr" ".\output\libg7221codec--Win32-vc8-Debug\\huff_tab.sbr" ".\output\libg7221codec--Win32-vc8-Debug\\tables.sbr" ".\output\libg7221codec--Win32-vc8-Debug\\coef2sam.sbr" ".\output\libg7221codec--Win32-vc8-Debug\\dct4_s.sbr" ".\output\libg7221codec--Win32-vc8-Debug\\decoder.sbr" ".\output\libg7221codec--Win32-vc8-Debug\\dct4_a.sbr" ".\output\libg7221codec--Win32-vc8-Debug\\encoder.sbr" ".\output\libg7221codec--Win32-vc8-Debug\\sam2coef.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\g7221\libg7221codec.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.66

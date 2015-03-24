@@ -1,0 +1,36 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:18。
+     1>節點 3 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\baseclasses\libbaseclasses.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I../../baseclasses /I../../../pjmedia/include /I../../../pjlib/include /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D _WIN32_DCOM /D WINVER=0x400 /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\libbaseclasses--Win32-vc8-Debug\\" /Fd".\output\libbaseclasses--Win32-vc8-Debug\\vc120.pdb" /FR".\output\libbaseclasses--Win32-vc8-Debug\\" /Gd /TP /analyze- /errorReport:prompt ..\..\BaseClasses\amfilter.cpp ..\..\BaseClasses\amvideo.cpp ..\..\BaseClasses\arithutil.cpp ..\..\BaseClasses\combase.cpp ..\..\BaseClasses\ctlutil.cpp ..\..\BaseClasses\mtype.cpp ..\..\BaseClasses\renbase.cpp ..\..\BaseClasses\wxdebug.cpp ..\..\BaseClasses\wxlist.cpp ..\..\BaseClasses\wxutil.cpp
+         amfilter.cpp
+         amvideo.cpp
+         arithutil.cpp
+         combase.cpp
+         ctlutil.cpp
+         mtype.cpp
+         renbase.cpp
+         wxdebug.cpp
+         wxlist.cpp
+         wxutil.cpp
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\baseclasses\.\output\libbaseclasses--Win32-vc8-Debug\libbaseclasses.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libbaseclasses-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(libbaseclasses) does not match the Library's OutputFile property value (libbaseclasses-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\libbaseclasses-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\libbaseclasses--Win32-vc8-Debug\\amfilter.obj"
+         ".\output\libbaseclasses--Win32-vc8-Debug\\amvideo.obj"
+         ".\output\libbaseclasses--Win32-vc8-Debug\\arithutil.obj"
+         ".\output\libbaseclasses--Win32-vc8-Debug\\combase.obj"
+         ".\output\libbaseclasses--Win32-vc8-Debug\\ctlutil.obj"
+         ".\output\libbaseclasses--Win32-vc8-Debug\\mtype.obj"
+         ".\output\libbaseclasses--Win32-vc8-Debug\\renbase.obj"
+         ".\output\libbaseclasses--Win32-vc8-Debug\\wxdebug.obj"
+         ".\output\libbaseclasses--Win32-vc8-Debug\\wxlist.obj"
+         ".\output\libbaseclasses--Win32-vc8-Debug\\wxutil.obj"
+         libbaseclasses.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\baseclasses\.\output\libbaseclasses--Win32-vc8-Debug\libbaseclasses.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\libbaseclasses--Win32-vc8-Debug\libbaseclasses.bsc" ".\output\libbaseclasses--Win32-vc8-Debug\\amfilter.sbr" ".\output\libbaseclasses--Win32-vc8-Debug\\amvideo.sbr" ".\output\libbaseclasses--Win32-vc8-Debug\\arithutil.sbr" ".\output\libbaseclasses--Win32-vc8-Debug\\combase.sbr" ".\output\libbaseclasses--Win32-vc8-Debug\\ctlutil.sbr" ".\output\libbaseclasses--Win32-vc8-Debug\\mtype.sbr" ".\output\libbaseclasses--Win32-vc8-Debug\\renbase.sbr" ".\output\libbaseclasses--Win32-vc8-Debug\\wxdebug.sbr" ".\output\libbaseclasses--Win32-vc8-Debug\\wxlist.sbr" ".\output\libbaseclasses--Win32-vc8-Debug\\wxutil.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\baseclasses\libbaseclasses.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.68

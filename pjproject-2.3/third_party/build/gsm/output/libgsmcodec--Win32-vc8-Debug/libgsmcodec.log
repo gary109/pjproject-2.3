@@ -1,0 +1,52 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:03。
+     1>節點 4 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\gsm\libgsmcodec.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I../../gsm/inc /ZI /nologo /W3 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\libgsmcodec--Win32-vc8-Debug\\" /Fd".\output\libgsmcodec--Win32-vc8-Debug\\vc120.pdb" /FR".\output\libgsmcodec--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\..\gsm\src\add.c ..\..\gsm\src\code.c ..\..\gsm\src\debug.c ..\..\gsm\src\decode.c ..\..\gsm\src\gsm_create.c ..\..\gsm\src\gsm_decode.c ..\..\gsm\src\gsm_destroy.c ..\..\gsm\src\gsm_encode.c ..\..\gsm\src\gsm_explode.c ..\..\gsm\src\gsm_implode.c ..\..\gsm\src\gsm_option.c ..\..\gsm\src\gsm_print.c ..\..\gsm\src\long_term.c ..\..\gsm\src\lpc.c ..\..\gsm\src\preprocess.c ..\..\gsm\src\rpe.c ..\..\gsm\src\short_term.c ..\..\gsm\src\table.c
+         add.c
+         code.c
+         debug.c
+         decode.c
+         gsm_create.c
+         gsm_decode.c
+         gsm_destroy.c
+         gsm_encode.c
+         gsm_explode.c
+         gsm_implode.c
+         gsm_option.c
+         gsm_print.c
+         long_term.c
+         lpc.c
+         preprocess.c
+         rpe.c
+         short_term.c
+         table.c
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\gsm\.\output\libgsmcodec--Win32-vc8-Debug\libgsmcodec.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libgsmcodec-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(libgsmcodec) does not match the Library's OutputFile property value (libgsmcodec-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\libgsmcodec-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\libgsmcodec--Win32-vc8-Debug\\add.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\code.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\debug.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\decode.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_create.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_decode.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_destroy.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_encode.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_explode.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_implode.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_option.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_print.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\long_term.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\lpc.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\preprocess.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\rpe.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\short_term.obj"
+         ".\output\libgsmcodec--Win32-vc8-Debug\\table.obj"
+         libgsmcodec.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\gsm\.\output\libgsmcodec--Win32-vc8-Debug\libgsmcodec.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\libgsmcodec--Win32-vc8-Debug\libgsmcodec.bsc" ".\output\libgsmcodec--Win32-vc8-Debug\\add.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\code.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\debug.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\decode.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_create.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_decode.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_destroy.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_encode.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_explode.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_implode.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_option.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\gsm_print.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\long_term.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\lpc.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\preprocess.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\rpe.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\short_term.sbr" ".\output\libgsmcodec--Win32-vc8-Debug\\table.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\gsm\libgsmcodec.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.05

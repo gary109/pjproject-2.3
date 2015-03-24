@@ -1,0 +1,32 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:15。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\build\pjmedia_audiodev.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjnath/include /I../../third_party/portaudio/include /I../../third_party/speex/include /I../../third_party/build/srtp /I../../third_party/srtp/crypto/include /I../../third_party/srtp/include /I../.. /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjmedia_audiodev--Win32-vc8-Debug\\" /Fd".\output\pjmedia_audiodev--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjmedia_audiodev--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\src\pjmedia-audiodev\audiodev.c" "..\src\pjmedia-audiodev\audiotest.c" "..\src\pjmedia-audiodev\bdimad_dev.c" "..\src\pjmedia-audiodev\errno.c" "..\src\pjmedia-audiodev\legacy_dev.c" "..\src\pjmedia-audiodev\null_dev.c" "..\src\pjmedia-audiodev\pa_dev.c" "..\src\pjmedia-audiodev\wmme_dev.c"
+         audiodev.c
+         audiotest.c
+         bdimad_dev.c
+         errno.c
+         legacy_dev.c
+         null_dev.c
+         pa_dev.c
+         wmme_dev.c
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\build\.\output\pjmedia_audiodev--Win32-vc8-Debug\pjmedia_audiodev.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-audiodev-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(pjmedia_audiodev) does not match the Library's OutputFile property value (pjmedia-audiodev-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjmedia-audiodev-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\pjmedia_audiodev--Win32-vc8-Debug\\audiodev.obj"
+         ".\output\pjmedia_audiodev--Win32-vc8-Debug\\audiotest.obj"
+         ".\output\pjmedia_audiodev--Win32-vc8-Debug\\bdimad_dev.obj"
+         ".\output\pjmedia_audiodev--Win32-vc8-Debug\\errno.obj"
+         ".\output\pjmedia_audiodev--Win32-vc8-Debug\\legacy_dev.obj"
+         ".\output\pjmedia_audiodev--Win32-vc8-Debug\\null_dev.obj"
+         ".\output\pjmedia_audiodev--Win32-vc8-Debug\\pa_dev.obj"
+         ".\output\pjmedia_audiodev--Win32-vc8-Debug\\wmme_dev.obj"
+         pjmedia_audiodev.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\build\.\output\pjmedia_audiodev--Win32-vc8-Debug\pjmedia_audiodev.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\pjmedia_audiodev--Win32-vc8-Debug\pjmedia_audiodev.bsc" ".\output\pjmedia_audiodev--Win32-vc8-Debug\\audiodev.sbr" ".\output\pjmedia_audiodev--Win32-vc8-Debug\\audiotest.sbr" ".\output\pjmedia_audiodev--Win32-vc8-Debug\\bdimad_dev.sbr" ".\output\pjmedia_audiodev--Win32-vc8-Debug\\errno.sbr" ".\output\pjmedia_audiodev--Win32-vc8-Debug\\legacy_dev.sbr" ".\output\pjmedia_audiodev--Win32-vc8-Debug\\null_dev.sbr" ".\output\pjmedia_audiodev--Win32-vc8-Debug\\pa_dev.sbr" ".\output\pjmedia_audiodev--Win32-vc8-Debug\\wmme_dev.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\build\pjmedia_audiodev.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:03.88

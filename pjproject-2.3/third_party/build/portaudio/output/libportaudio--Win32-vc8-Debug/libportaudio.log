@@ -1,0 +1,71 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:10。
+     1>節點 5 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\portaudio\libportaudio.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\portaudio\src\common /I..\..\portaudio\include /I..\..\portaudio\src\os\win /Iinclude /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D PA_ENABLE_DEBUG_OUTPUT /D _CRT_SECURE_NO_DEPRECATE /D PA_NO_ASIO /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\libportaudio--Win32-vc8-Debug\\" /Fd".\output\libportaudio--Win32-vc8-Debug\\vc120.pdb" /FR".\output\libportaudio--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\..\portaudio\src\common\pa_allocation.c ..\..\portaudio\src\common\pa_converters.c ..\..\portaudio\src\common\pa_cpuload.c ..\..\portaudio\src\common\pa_debugprint.c ..\..\portaudio\src\common\pa_dither.c ..\..\portaudio\src\common\pa_front.c ..\..\portaudio\src\common\pa_process.c ..\..\portaudio\src\common\pa_skeleton.c ..\..\portaudio\src\common\pa_stream.c ..\..\portaudio\src\hostapi\dsound\pa_win_ds.c ..\..\portaudio\src\hostapi\dsound\pa_win_ds_dynlink.c ..\..\portaudio\src\hostapi\wmme\pa_win_wmme.c ..\..\portaudio\src\os\win\pa_win_hostapis.c ..\..\portaudio\src\os\win\pa_win_util.c ..\..\portaudio\src\os\win\pa_win_waveformat.c ..\..\portaudio\src\os\win\pa_x86_plain_converters.c
+         pa_allocation.c
+         pa_converters.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\common\pa_converters.c(108): warning C4245: '=' : 從 'int' 轉換為 'PaSampleFormat'，signed/unsigned 不相符
+         pa_cpuload.c
+         pa_debugprint.c
+         pa_dither.c
+         pa_front.c
+         pa_process.c
+         pa_skeleton.c
+         pa_stream.c
+         pa_win_ds.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\dsound\pa_win_ds.c(605): warning C4100: 'pnpInterface' : 未參考的型式參數
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\dsound\pa_win_ds.c(822): warning C4100: 'pnpInterface' : 未參考的型式參數
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\dsound\pa_win_ds.c(1216): warning C4996: 'GetVersionExA': 宣告為已被取代
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 請參閱 'GetVersionExA' 的宣告
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\dsound\pa_win_ds.c(1237): warning C4100: 'streamParameters' : 未參考的型式參數
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\dsound\pa_win_ds.c(1256): warning C4100: 'sampleRate' : 未參考的型式參數
+         pa_win_ds_dynlink.c
+         pa_win_wmme.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\wmme\pa_win_wmme.c(823): warning C4101: 'wdmksDeviceOutputChannelCountIsKnown' : 未參考的區域變數
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\wmme\pa_win_wmme.c(911): warning C4996: 'GetVersionExA': 宣告為已被取代
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 請參閱 'GetVersionExA' 的宣告
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\wmme\pa_win_wmme.c(980): warning C4245: '=' : 從 'int' 轉換為 'DWORD'，signed/unsigned 不相符
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\wmme\pa_win_wmme.c(984): warning C4245: '=' : 從 'int' 轉換為 'DWORD'，signed/unsigned 不相符
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\wmme\pa_win_wmme.c(1785): warning C4100: 'bytesPerHostSample' : 未參考的型式參數
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\wmme\pa_win_wmme.c(2841): warning C4245: '=' : 從 'int' 轉換為 'DWORD'，signed/unsigned 不相符
+         pa_win_hostapis.c
+         pa_win_util.c
+         pa_win_waveformat.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\os\win\pa_win_waveformat.c(70): warning C4244: '=' : 將 'int' 轉換為 'WORD'，由於類型不同，可能導致資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\os\win\pa_win_waveformat.c(75): warning C4244: '=' : 將 'int' 轉換為 'WORD'，由於類型不同，可能導致資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\os\win\pa_win_waveformat.c(94): warning C4244: '=' : 將 'int' 轉換為 'WORD'，由於類型不同，可能導致資料遺失
+         pa_x86_plain_converters.c
+         正在產生程式碼...
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\wmme\pa_win_wmme.c(2538): warning C4701: 使用了可能未初始化的區域變數 'inputChannelMask'
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\wmme\pa_win_wmme.c(2547): warning C4701: 使用了可能未初始化的區域變數 'outputChannelMask'
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\wmme\pa_win_wmme.c(2503): warning C4701: 使用了可能未初始化的區域變數 'framesPerBufferProcessorCall'
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\dsound\pa_win_ds.c(1867): warning C4701: 使用了可能未初始化的區域變數 'inputChannelMask'
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\dsound\pa_win_ds.c(1818): warning C4701: 使用了可能未初始化的區域變數 'outputChannelMask'
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\third_party\portaudio\src\hostapi\dsound\pa_win_ds.c(2292): warning C4701: 使用了可能未初始化的區域變數 'hr'
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\portaudio\.\output\libportaudio--Win32-vc8-Debug\libportaudio.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libportaudio-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(libportaudio) does not match the Library's OutputFile property value (libportaudio-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\libportaudio-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\libportaudio--Win32-vc8-Debug\\pa_allocation.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_converters.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_cpuload.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_debugprint.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_dither.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_front.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_process.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_skeleton.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_stream.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_win_ds.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_win_ds_dynlink.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_win_wmme.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_win_hostapis.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_win_util.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_win_waveformat.obj"
+         ".\output\libportaudio--Win32-vc8-Debug\\pa_x86_plain_converters.obj"
+         libportaudio.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\portaudio\.\output\libportaudio--Win32-vc8-Debug\libportaudio.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\libportaudio--Win32-vc8-Debug\libportaudio.bsc" ".\output\libportaudio--Win32-vc8-Debug\\pa_allocation.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_converters.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_cpuload.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_debugprint.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_dither.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_front.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_process.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_skeleton.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_stream.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_win_ds.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_win_ds_dynlink.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_win_wmme.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_win_hostapis.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_win_util.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_win_waveformat.sbr" ".\output\libportaudio--Win32-vc8-Debug\\pa_x86_plain_converters.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\portaudio\libportaudio.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:04.61

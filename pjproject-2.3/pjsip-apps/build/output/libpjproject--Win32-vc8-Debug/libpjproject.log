@@ -1,0 +1,39 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:24。
+     1>節點 3 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip-apps\build\libpjproject.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\libpjproject--Win32-vc8-Debug\\" /Fd".\output\libpjproject--Win32-vc8-Debug\\vc120.pdb" /FR".\output\libpjproject--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt dummy.c
+         dummy.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip-apps\build\.\output\libpjproject--Win32-vc8-Debug\libpjproject.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\lib\libpjproject-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(libpjproject) does not match the Library's OutputFile property value (libpjproject-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\libpjproject-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\libpjproject--Win32-vc8-Debug\\dummy.obj"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\lib\pjlib-util-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjlib\lib\pjlib-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-audiodev-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-codec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-videodev-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjnath\lib\pjnath-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsip-core-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsip-simple-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsip-ua-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsua2-lib-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsua-lib-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libbaseclasses-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libg7221codec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libgsmcodec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libilbccodec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libmilenage-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libportaudio-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libresample-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libspeex-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libsrtp-i386-Win32-vc8-Debug.lib"
+     1>pjmedia-i386-Win32-vc8-Debug.lib(avi_player.obj) : warning LNK4221: 這個物件檔案沒有定義任何以前未定義的公用符號，因此任何使用這個程式庫的連結作業都將不會使用它。
+         libpjproject.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip-apps\build\.\output\libpjproject--Win32-vc8-Debug\libpjproject.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\libpjproject--Win32-vc8-Debug\libpjproject.bsc" ".\output\libpjproject--Win32-vc8-Debug\\dummy.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip-apps\build\libpjproject.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.41

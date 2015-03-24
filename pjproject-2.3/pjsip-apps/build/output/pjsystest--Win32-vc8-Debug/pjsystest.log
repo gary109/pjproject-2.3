@@ -1,0 +1,17 @@
+﻿已經開始建置於 2015/2/16 下午 02:23:09。
+     1>節點 5 (Build 目標) 上的專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip-apps\build\pjsystest.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../pjsip/include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjmedia/include /I../../pjnath/include /ZI /nologo /W4 /WX- /Od /Oy- /D _CONSOLE /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjsystest--Win32-vc8-Debug\\" /Fd".\output\pjsystest--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjsystest--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\src\pjsystest\main_console.c ..\src\pjsystest\systest.c
+         main_console.c
+         systest.c
+     1>c:\users\9200\desktop\work\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         正在產生程式碼...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo".\output\pjsystest--Win32-vc8-Debug\\pjsystest_wince.res" ..\src\pjsystest\pjsystest_wince.rc 
+     1>..\src\pjsystest\pjsystest_wince.rc(10): fatal error RC1015: cannot open include file 'afxres.h'.
+         
+     1>專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip-apps\build\pjsystest.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:01.83

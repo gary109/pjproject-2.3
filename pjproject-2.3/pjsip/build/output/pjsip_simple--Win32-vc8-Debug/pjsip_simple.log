@@ -1,0 +1,38 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:07。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\pjsip_simple.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I"../../pjlib-util/include" /I../../pjlib/include /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjsip_simple--Win32-vc8-Debug\\" /Fd".\output\pjsip_simple--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjsip_simple--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\src\pjsip-simple\errno.c" "..\src\pjsip-simple\evsub.c" "..\src\pjsip-simple\evsub_msg.c" "..\src\pjsip-simple\iscomposing.c" "..\src\pjsip-simple\mwi.c" "..\src\pjsip-simple\pidf.c" "..\src\pjsip-simple\presence.c" "..\src\pjsip-simple\presence_body.c" "..\src\pjsip-simple\publishc.c" "..\src\pjsip-simple\rpid.c" "..\src\pjsip-simple\xpidf.c"
+         errno.c
+         evsub.c
+         evsub_msg.c
+         iscomposing.c
+         mwi.c
+         pidf.c
+         presence.c
+         presence_body.c
+         publishc.c
+         rpid.c
+         xpidf.c
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\.\output\pjsip_simple--Win32-vc8-Debug\pjsip_simple.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsip-simple-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(pjsip_simple) does not match the Library's OutputFile property value (pjsip-simple-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjsip-simple-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\pjsip_simple--Win32-vc8-Debug\\errno.obj"
+         ".\output\pjsip_simple--Win32-vc8-Debug\\evsub.obj"
+         ".\output\pjsip_simple--Win32-vc8-Debug\\evsub_msg.obj"
+         ".\output\pjsip_simple--Win32-vc8-Debug\\iscomposing.obj"
+         ".\output\pjsip_simple--Win32-vc8-Debug\\mwi.obj"
+         ".\output\pjsip_simple--Win32-vc8-Debug\\pidf.obj"
+         ".\output\pjsip_simple--Win32-vc8-Debug\\presence.obj"
+         ".\output\pjsip_simple--Win32-vc8-Debug\\presence_body.obj"
+         ".\output\pjsip_simple--Win32-vc8-Debug\\publishc.obj"
+         ".\output\pjsip_simple--Win32-vc8-Debug\\rpid.obj"
+         ".\output\pjsip_simple--Win32-vc8-Debug\\xpidf.obj"
+         pjsip_simple.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\.\output\pjsip_simple--Win32-vc8-Debug\pjsip_simple.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\pjsip_simple--Win32-vc8-Debug\pjsip_simple.bsc" ".\output\pjsip_simple--Win32-vc8-Debug\\errno.sbr" ".\output\pjsip_simple--Win32-vc8-Debug\\evsub.sbr" ".\output\pjsip_simple--Win32-vc8-Debug\\evsub_msg.sbr" ".\output\pjsip_simple--Win32-vc8-Debug\\iscomposing.sbr" ".\output\pjsip_simple--Win32-vc8-Debug\\mwi.sbr" ".\output\pjsip_simple--Win32-vc8-Debug\\pidf.sbr" ".\output\pjsip_simple--Win32-vc8-Debug\\presence.sbr" ".\output\pjsip_simple--Win32-vc8-Debug\\presence_body.sbr" ".\output\pjsip_simple--Win32-vc8-Debug\\publishc.sbr" ".\output\pjsip_simple--Win32-vc8-Debug\\rpid.sbr" ".\output\pjsip_simple--Win32-vc8-Debug\\xpidf.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\pjsip_simple.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.48

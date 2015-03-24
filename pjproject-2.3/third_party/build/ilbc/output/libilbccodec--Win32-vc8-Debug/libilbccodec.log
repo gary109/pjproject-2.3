@@ -1,0 +1,64 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:04。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\ilbc\libilbccodec.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\libilbccodec--Win32-vc8-Debug\\" /Fd".\output\libilbccodec--Win32-vc8-Debug\\vc120.pdb" /FR".\output\libilbccodec--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\..\ilbc\anaFilter.c ..\..\ilbc\constants.c ..\..\ilbc\createCB.c ..\..\ilbc\doCPLC.c ..\..\ilbc\enhancer.c ..\..\ilbc\filter.c ..\..\ilbc\FrameClassify.c ..\..\ilbc\gainquant.c ..\..\ilbc\getCBvec.c ..\..\ilbc\helpfun.c ..\..\ilbc\hpInput.c ..\..\ilbc\hpOutput.c ..\..\ilbc\iCBConstruct.c ..\..\ilbc\iCBSearch.c ..\..\ilbc\iLBC_decode.c ..\..\ilbc\iLBC_encode.c ..\..\ilbc\LPCdecode.c ..\..\ilbc\LPCencode.c ..\..\ilbc\lsf.c ..\..\ilbc\packing.c ..\..\ilbc\StateConstructW.c ..\..\ilbc\StateSearchW.c ..\..\ilbc\syntFilter.c
+         anaFilter.c
+         constants.c
+         createCB.c
+         doCPLC.c
+         enhancer.c
+         filter.c
+         FrameClassify.c
+         gainquant.c
+         getCBvec.c
+         helpfun.c
+         hpInput.c
+         hpOutput.c
+         iCBConstruct.c
+         iCBSearch.c
+         iLBC_decode.c
+         iLBC_encode.c
+         LPCdecode.c
+         LPCencode.c
+         lsf.c
+         packing.c
+         正在產生程式碼...
+         正在編譯...
+         StateConstructW.c
+         StateSearchW.c
+         syntFilter.c
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\ilbc\.\output\libilbccodec--Win32-vc8-Debug\libilbccodec.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libilbccodec-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(libilbccodec) does not match the Library's OutputFile property value (libilbccodec-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\libilbccodec-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\libilbccodec--Win32-vc8-Debug\\anaFilter.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\constants.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\createCB.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\doCPLC.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\enhancer.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\filter.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\FrameClassify.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\gainquant.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\getCBvec.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\helpfun.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\hpInput.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\hpOutput.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\iCBConstruct.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\iCBSearch.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\iLBC_decode.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\iLBC_encode.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\LPCdecode.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\LPCencode.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\lsf.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\packing.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\StateConstructW.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\StateSearchW.obj"
+         ".\output\libilbccodec--Win32-vc8-Debug\\syntFilter.obj"
+         libilbccodec.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\ilbc\.\output\libilbccodec--Win32-vc8-Debug\libilbccodec.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\libilbccodec--Win32-vc8-Debug\libilbccodec.bsc" ".\output\libilbccodec--Win32-vc8-Debug\\anaFilter.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\constants.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\createCB.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\doCPLC.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\enhancer.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\filter.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\FrameClassify.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\gainquant.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\getCBvec.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\helpfun.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\hpInput.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\hpOutput.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\iCBConstruct.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\iCBSearch.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\iLBC_decode.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\iLBC_encode.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\LPCdecode.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\LPCencode.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\lsf.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\packing.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\StateConstructW.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\StateSearchW.sbr" ".\output\libilbccodec--Win32-vc8-Debug\\syntFilter.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\ilbc\libilbccodec.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.01

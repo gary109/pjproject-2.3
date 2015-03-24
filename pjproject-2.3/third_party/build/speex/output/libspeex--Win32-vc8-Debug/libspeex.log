@@ -1,0 +1,94 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:13。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\speex\libspeex.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /I../../speex/include /I../../../pjlib/include /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D _WINDOWS /D HAVE_CONFIG_H /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\libspeex--Win32-vc8-Debug\\" /Fd".\output\libspeex--Win32-vc8-Debug\\vc120.pdb" /FR".\output\libspeex--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt ..\..\speex\libspeex\bits.c ..\..\speex\libspeex\cb_search.c ..\..\speex\libspeex\exc_10_16_table.c ..\..\speex\libspeex\exc_10_32_table.c ..\..\speex\libspeex\exc_20_32_table.c ..\..\speex\libspeex\exc_5_256_table.c ..\..\speex\libspeex\exc_5_64_table.c ..\..\speex\libspeex\exc_8_128_table.c ..\..\speex\libspeex\fftwrap.c ..\..\speex\libspeex\filterbank.c ..\..\speex\libspeex\filters.c ..\..\speex\libspeex\gain_table.c ..\..\speex\libspeex\gain_table_lbr.c ..\..\speex\libspeex\hexc_10_32_table.c ..\..\speex\libspeex\hexc_table.c ..\..\speex\libspeex\high_lsp_tables.c ..\..\speex\libspeex\kiss_fft.c ..\..\speex\libspeex\kiss_fftr.c ..\..\speex\libspeex\lpc.c ..\..\speex\libspeex\lsp.c ..\..\speex\libspeex\lsp_tables_nb.c ..\..\speex\libspeex\ltp.c ..\..\speex\libspeex\mdf.c ..\..\speex\libspeex\modes.c ..\..\speex\libspeex\modes_wb.c ..\..\speex\libspeex\nb_celp.c ..\..\speex\libspeex\preprocess.c ..\..\speex\libspeex\quant_lsp.c ..\..\speex\libspeex\resample.c ..\..\speex\libspeex\sb_celp.c ..\..\speex\libspeex\smallft.c ..\..\speex\libspeex\speex.c ..\..\speex\libspeex\speex_callbacks.c ..\..\speex\libspeex\speex_header.c ..\..\speex\libspeex\stereo.c ..\..\speex\libspeex\vbr.c ..\..\speex\libspeex\vq.c ..\..\speex\libspeex\window.c
+         bits.c
+         cb_search.c
+         exc_10_16_table.c
+         exc_10_32_table.c
+         exc_20_32_table.c
+         exc_5_256_table.c
+         exc_5_64_table.c
+         exc_8_128_table.c
+         fftwrap.c
+         filterbank.c
+         filters.c
+         gain_table.c
+         gain_table_lbr.c
+         hexc_10_32_table.c
+         hexc_table.c
+         high_lsp_tables.c
+         kiss_fft.c
+         kiss_fftr.c
+         lpc.c
+         lsp.c
+         正在產生程式碼...
+         正在編譯...
+         lsp_tables_nb.c
+         ltp.c
+         mdf.c
+         modes.c
+         modes_wb.c
+         nb_celp.c
+         preprocess.c
+         quant_lsp.c
+         resample.c
+         sb_celp.c
+         smallft.c
+         speex.c
+         speex_callbacks.c
+         speex_header.c
+         stereo.c
+         vbr.c
+         vq.c
+         window.c
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\speex\.\output\libspeex--Win32-vc8-Debug\libspeex.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libspeex-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(libspeex) does not match the Library's OutputFile property value (libspeex-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\libspeex-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\libspeex--Win32-vc8-Debug\\bits.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\cb_search.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\exc_10_16_table.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\exc_10_32_table.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\exc_20_32_table.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\exc_5_256_table.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\exc_5_64_table.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\exc_8_128_table.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\fftwrap.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\filterbank.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\filters.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\gain_table.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\gain_table_lbr.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\hexc_10_32_table.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\hexc_table.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\high_lsp_tables.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\kiss_fft.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\kiss_fftr.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\lpc.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\lsp.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\lsp_tables_nb.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\ltp.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\mdf.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\modes.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\modes_wb.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\nb_celp.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\preprocess.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\quant_lsp.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\resample.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\sb_celp.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\smallft.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\speex.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\speex_callbacks.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\speex_header.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\stereo.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\vbr.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\vq.obj"
+         ".\output\libspeex--Win32-vc8-Debug\\window.obj"
+         libspeex.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\speex\.\output\libspeex--Win32-vc8-Debug\libspeex.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\libspeex--Win32-vc8-Debug\libspeex.bsc" ".\output\libspeex--Win32-vc8-Debug\\bits.sbr" ".\output\libspeex--Win32-vc8-Debug\\cb_search.sbr" ".\output\libspeex--Win32-vc8-Debug\\exc_10_16_table.sbr" ".\output\libspeex--Win32-vc8-Debug\\exc_10_32_table.sbr" ".\output\libspeex--Win32-vc8-Debug\\exc_20_32_table.sbr" ".\output\libspeex--Win32-vc8-Debug\\exc_5_256_table.sbr" ".\output\libspeex--Win32-vc8-Debug\\exc_5_64_table.sbr" ".\output\libspeex--Win32-vc8-Debug\\exc_8_128_table.sbr" ".\output\libspeex--Win32-vc8-Debug\\fftwrap.sbr" ".\output\libspeex--Win32-vc8-Debug\\filterbank.sbr" ".\output\libspeex--Win32-vc8-Debug\\filters.sbr" ".\output\libspeex--Win32-vc8-Debug\\gain_table.sbr" ".\output\libspeex--Win32-vc8-Debug\\gain_table_lbr.sbr" ".\output\libspeex--Win32-vc8-Debug\\hexc_10_32_table.sbr" ".\output\libspeex--Win32-vc8-Debug\\hexc_table.sbr" ".\output\libspeex--Win32-vc8-Debug\\high_lsp_tables.sbr" ".\output\libspeex--Win32-vc8-Debug\\kiss_fft.sbr" ".\output\libspeex--Win32-vc8-Debug\\kiss_fftr.sbr" ".\output\libspeex--Win32-vc8-Debug\\lpc.sbr" ".\output\libspeex--Win32-vc8-Debug\\lsp.sbr" ".\output\libspeex--Win32-vc8-Debug\\lsp_tables_nb.sbr" ".\output\libspeex--Win32-vc8-Debug\\ltp.sbr" ".\output\libspeex--Win32-vc8-Debug\\mdf.sbr" ".\output\libspeex--Win32-vc8-Debug\\modes.sbr" ".\output\libspeex--Win32-vc8-Debug\\modes_wb.sbr" ".\output\libspeex--Win32-vc8-Debug\\nb_celp.sbr" ".\output\libspeex--Win32-vc8-Debug\\preprocess.sbr" ".\output\libspeex--Win32-vc8-Debug\\quant_lsp.sbr" ".\output\libspeex--Win32-vc8-Debug\\resample.sbr" ".\output\libspeex--Win32-vc8-Debug\\sb_celp.sbr" ".\output\libspeex--Win32-vc8-Debug\\smallft.sbr" ".\output\libspeex--Win32-vc8-Debug\\speex.sbr" ".\output\libspeex--Win32-vc8-Debug\\speex_callbacks.sbr" ".\output\libspeex--Win32-vc8-Debug\\speex_header.sbr" ".\output\libspeex--Win32-vc8-Debug\\stereo.sbr" ".\output\libspeex--Win32-vc8-Debug\\vbr.sbr" ".\output\libspeex--Win32-vc8-Debug\\vq.sbr" ".\output\libspeex--Win32-vc8-Debug\\window.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\third_party\build\speex\libspeex.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.73

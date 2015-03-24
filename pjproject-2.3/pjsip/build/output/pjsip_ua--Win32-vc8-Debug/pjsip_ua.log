@@ -1,0 +1,30 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:08。
+     1>節點 4 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\pjsip_ua.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjmedia/include /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjsip_ua--Win32-vc8-Debug\\" /Fd".\output\pjsip_ua--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjsip_ua--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\src\pjsip-ua\sip_100rel.c" "..\src\pjsip-ua\sip_inv.c" "..\src\pjsip-ua\sip_reg.c" "..\src\pjsip-ua\sip_replaces.c" "..\src\pjsip-ua\sip_timer.c" "..\src\pjsip-ua\sip_xfer.c"
+         sip_100rel.c
+         sip_inv.c
+         sip_reg.c
+         sip_replaces.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjsip\src\pjsip-ua\sip_replaces.c(167): warning C4102: 'TODO___provide_initialized_flag_for_each_endpoint' : 未參考的標籤
+         sip_timer.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjsip\src\pjsip-ua\sip_timer.c(538): warning C4102: 'TODO___provide_initialized_flag_for_each_endpoint' : 未參考的標籤
+         sip_xfer.c
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\.\output\pjsip_ua--Win32-vc8-Debug\pjsip_ua.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsip-ua-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(pjsip_ua) does not match the Library's OutputFile property value (pjsip-ua-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjsip-ua-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\pjsip_ua--Win32-vc8-Debug\\sip_100rel.obj"
+         ".\output\pjsip_ua--Win32-vc8-Debug\\sip_inv.obj"
+         ".\output\pjsip_ua--Win32-vc8-Debug\\sip_reg.obj"
+         ".\output\pjsip_ua--Win32-vc8-Debug\\sip_replaces.obj"
+         ".\output\pjsip_ua--Win32-vc8-Debug\\sip_timer.obj"
+         ".\output\pjsip_ua--Win32-vc8-Debug\\sip_xfer.obj"
+         pjsip_ua.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\.\output\pjsip_ua--Win32-vc8-Debug\pjsip_ua.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\pjsip_ua--Win32-vc8-Debug\pjsip_ua.bsc" ".\output\pjsip_ua--Win32-vc8-Debug\\sip_100rel.sbr" ".\output\pjsip_ua--Win32-vc8-Debug\\sip_inv.sbr" ".\output\pjsip_ua--Win32-vc8-Debug\\sip_reg.sbr" ".\output\pjsip_ua--Win32-vc8-Debug\\sip_replaces.sbr" ".\output\pjsip_ua--Win32-vc8-Debug\\sip_timer.sbr" ".\output\pjsip_ua--Win32-vc8-Debug\\sip_xfer.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\pjsip_ua.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.78

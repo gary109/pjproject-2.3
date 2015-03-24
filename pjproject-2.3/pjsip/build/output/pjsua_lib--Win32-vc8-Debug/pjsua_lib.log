@@ -1,0 +1,45 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:10。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\pjsua_lib.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjmedia/include /I"../../pjlib-util/include" /I../../pjlib/include /I../../pjnath/include /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjsua_lib--Win32-vc8-Debug\\" /Fd".\output\pjsua_lib--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjsua_lib--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\src\pjsua-lib\pjsua_acc.c" "..\src\pjsua-lib\pjsua_aud.c" "..\src\pjsua-lib\pjsua_call.c" "..\src\pjsua-lib\pjsua_core.c" "..\src\pjsua-lib\pjsua_dump.c" "..\src\pjsua-lib\pjsua_im.c" "..\src\pjsua-lib\pjsua_media.c" "..\src\pjsua-lib\pjsua_pres.c" "..\src\pjsua-lib\pjsua_vid.c"
+         pjsua_acc.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         pjsua_aud.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         pjsua_call.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjsip\src\pjsua-lib\pjsua_call.c(3606): warning C4102: 'TODO___HANDLE_FORKED_DIALOG' : 未參考的標籤
+         pjsua_core.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjsip\src\pjsua-lib\pjsua_core.c(2457): warning C4102: 'TODO___pjsua_transport_set_enable' : 未參考的標籤
+         pjsua_dump.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         pjsua_im.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         pjsua_media.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         pjsua_pres.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         pjsua_vid.c
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\.\output\pjsua_lib--Win32-vc8-Debug\pjsua_lib.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsua-lib-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(pjsua_lib) does not match the Library's OutputFile property value (pjsua-lib-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjsua-lib-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_acc.obj"
+         ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_aud.obj"
+         ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_call.obj"
+         ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_core.obj"
+         ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_dump.obj"
+         ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_im.obj"
+         ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_media.obj"
+         ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_pres.obj"
+         ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_vid.obj"
+         pjsua_lib.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\.\output\pjsua_lib--Win32-vc8-Debug\pjsua_lib.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\pjsua_lib--Win32-vc8-Debug\pjsua_lib.bsc" ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_acc.sbr" ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_aud.sbr" ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_call.sbr" ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_core.sbr" ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_dump.sbr" ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_im.sbr" ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_media.sbr" ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_pres.sbr" ".\output\pjsua_lib--Win32-vc8-Debug\\pjsua_vid.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\pjsua_lib.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.96

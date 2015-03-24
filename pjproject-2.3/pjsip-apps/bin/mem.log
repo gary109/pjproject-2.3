@@ -1,0 +1,56 @@
+14:18:24.390 sip_endpoint.c  .Module "mod-pjsua-log" registered
+14:18:24.391 sip_endpoint.c  .Module "mod-tsx-layer" registered
+14:18:24.391 sip_endpoint.c  .Module "mod-stateful-util" registered
+14:18:24.391 sip_endpoint.c  .Module "mod-ua" registered
+14:18:24.391 sip_endpoint.c  .Module "mod-100rel" registered
+14:18:24.391 sip_endpoint.c  .Module "mod-pjsua" registered
+14:18:24.391 sip_endpoint.c  .Module "mod-invite" registered
+14:18:24.392   pjsua_core.c  .Trying STUN server stun.pjsip.org (1 of 1)..
+14:18:24.407     wmme_dev.c  ..WMME found 2 devices:
+14:18:24.407     wmme_dev.c  .. dev_id 0: Wave mapper  (in=0, out=2)
+14:18:24.408     wmme_dev.c  .. dev_id 1: Realtek Digital Output (Realtek  (in=0, out=2)
+14:18:24.408     wmme_dev.c  ..WMME initialized
+14:18:24.408          pjlib  ..select() I/O Queue created (0089E90C)
+14:18:24.419 sip_endpoint.c  .Module "mod-evsub" registered
+14:18:24.420 sip_endpoint.c  .Module "mod-presence" registered
+14:18:24.420 sip_endpoint.c  .Module "mod-mwi" registered
+14:18:24.421 sip_endpoint.c  .Module "mod-refer" registered
+14:18:24.421 sip_endpoint.c  .Module "mod-pjsua-pres" registered
+14:18:24.421 sip_endpoint.c  .Module "mod-pjsua-im" registered
+14:18:24.421 sip_endpoint.c  .Module "mod-pjsua-options" registered
+14:18:24.429   pjsua_core.c  .1 SIP worker threads created
+14:18:24.430   pjsua_core.c  .pjsua version 2.3 for win32-6.1/i386/msvc-18.0 initialized
+14:18:24.430   pjsua_core.c  .PJSUA state changed: CREATED --> INIT
+14:18:24.430 sip_endpoint.c  Module "mod-default-handler" registered
+14:18:24.550    stunresolve !.STUN mapped address found/changed: 122.147.155.173:11258
+14:18:24.570   pjsua_core.c  .STUN resolution success, using stun.pjsip.org, address is 208.109.222.137:3478
+14:18:24.581   pjsua_core.c !bind() error: Address already in use (WSAEADDRINUSE) [status=130048]
+14:18:24.582   pjsua_core.c  Shutting down, flags=0...
+14:18:24.583   pjsua_core.c  PJSUA state changed: INIT --> CLOSING
+14:18:24.592   pjsua_call.c  .Hangup all calls..
+14:18:24.593  pjsua_media.c  .Call 0: deinitializing media..
+14:18:24.594   pjsua_pres.c  .Shutting down presence..
+14:18:25.603   pjsua_core.c  .Destroying...
+14:18:25.603  pjsua_media.c  .Shutting down media..
+14:18:25.917 sip_transactio  .Stopping transaction layer module
+14:18:25.918 sip_transactio  .Stopped transaction layer module
+14:18:25.919 sip_endpoint.c  .Module "mod-default-handler" unregistered
+14:18:25.919 sip_endpoint.c  .Module "mod-pjsua-options" unregistered
+14:18:25.920 sip_endpoint.c  .Module "mod-pjsua-im" unregistered
+14:18:25.920 sip_endpoint.c  .Module "mod-pjsua-pres" unregistered
+14:18:25.921 sip_endpoint.c  .Module "mod-pjsua" unregistered
+14:18:25.921 sip_endpoint.c  .Module "mod-stateful-util" unregistered
+14:18:25.921 sip_endpoint.c  .Module "mod-refer" unregistered
+14:18:25.922 sip_endpoint.c  .Module "mod-mwi" unregistered
+14:18:25.922 sip_endpoint.c  .Module "mod-presence" unregistered
+14:18:25.923 sip_endpoint.c  .Module "mod-evsub" unregistered
+14:18:25.923 sip_endpoint.c  .Module "mod-invite" unregistered
+14:18:25.923 sip_endpoint.c  .Module "mod-100rel" unregistered
+14:18:25.924 sip_endpoint.c  .Module "mod-ua" unregistered
+14:18:25.924 sip_transactio  .Transaction layer module destroyed
+14:18:25.924 sip_endpoint.c  .Module "mod-tsx-layer" unregistered
+14:18:25.925 sip_endpoint.c  .Module "mod-msg-print" unregistered
+14:18:25.925 sip_endpoint.c  .Module "mod-pjsua-log" unregistered
+14:18:25.926 sip_endpoint.c  .Endpoint 0088D33C destroyed
+14:18:25.926   pjsua_core.c  .PJSUA state changed: CLOSING --> NULL
+14:18:25.926   pjsua_core.c  .PJSUA destroyed...

@@ -1,0 +1,40 @@
+﻿已經開始建置於 2015/2/16 下午 02:23:03。
+     1>節點 3 (Build 目標) 上的專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip-apps\build\sample_debug.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../pjsip/include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjmedia/include /I../../pjnath/include /ZI /nologo /W4 /WX- /Od /Oy- /D _CONSOLE /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\sample_debug--Win32-vc8-Debug\\" /Fd".\output\sample_debug--Win32-vc8-Debug\\vc120.pdb" /FR".\output\sample_debug--Win32-vc8-Debug\\" /Gd /TP /analyze- /errorReport:prompt ..\src\samples\debug.cpp
+         debug.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip-apps\build\.\output\sample_debug--Win32-vc8-Debug\sample_debug.exe) does not match the Linker's OutputFile property value (C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip-apps\bin\sample-debug-i386-Win32-vc8-Debug.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(sample_debug) does not match the Linker's OutputFile property value (sample-debug-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\sample-debug-i386-Win32-vc8-Debug.exe" /NOLOGO iphlpapi.lib dsound.lib dxguid.lib netapi32.lib mswsock.lib ws2_32.lib odbc32.lib odbccp32.lib oleaut32.lib uuid.lib ole32.lib user32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:MSVCRT.LIB /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\output\sample_debug--Win32-vc8-Debug\\sample_debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\output\sample_debug--Win32-vc8-Debug\sample_debug.lib" /MACHINE:X86 /SAFESEH ".\output\sample_debug--Win32-vc8-Debug\\debug.obj"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsua2-lib-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib-util\lib\pjlib-util-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjlib\lib\pjlib-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-audiodev-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-codec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-videodev-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjnath\lib\pjnath-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsip-core-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsip-simple-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsip-ua-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsua-lib-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libbaseclasses-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libg7221codec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libgsmcodec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libilbccodec-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libmilenage-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libportaudio-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libresample-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libspeex-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\third_party\lib\libsrtp-i386-Win32-vc8-Debug.lib"
+         "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\lib\libpjproject-i386-Win32-vc8-Debug.lib"
+     1>debug.obj : warning LNK4075: 忽略 '/EDITANDCONTINUE'，由於 '/SAFESEH' 規格
+         sample_debug.vcxproj -> C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip-apps\build\.\output\sample_debug--Win32-vc8-Debug\sample_debug.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\sample_debug--Win32-vc8-Debug\sample_debug.bsc" ".\output\sample_debug--Win32-vc8-Debug\\debug.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\pjsip\pjproject-2.3\pjproject-2.3\pjsip-apps\build\sample_debug.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:05.58

@@ -1,0 +1,33 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:15。
+     1>節點 3 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\build\pjmedia_videodev.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjnath/include /I../../third_party/portaudio/include /I../../third_party/speex/include /I../../third_party/build/srtp /I../../third_party/srtp/crypto/include /I../../third_party/srtp/include /I../.. /I../../third_party/BaseClasses /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjmedia_videodev--Win32-vc8-Debug\\" /Fd".\output\pjmedia_videodev--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjmedia_videodev--Win32-vc8-Debug\\" /Gd /TC /analyze- /errorReport:prompt "..\src\pjmedia-videodev\avi_dev.c" "..\src\pjmedia-videodev\colorbar_dev.c" "..\src\pjmedia-videodev\dshow_dev.c" "..\src\pjmedia-videodev\errno.c" "..\src\pjmedia-videodev\ffmpeg_dev.c" "..\src\pjmedia-videodev\sdl_dev.c" "..\src\pjmedia-videodev\videodev.c"
+         avi_dev.c
+         colorbar_dev.c
+         dshow_dev.c
+         errno.c
+         ffmpeg_dev.c
+         sdl_dev.c
+         videodev.c
+         正在產生程式碼...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjlib/include /I"../../pjlib-util/include" /I../../pjnath/include /I../../third_party/portaudio/include /I../../third_party/speex/include /I../../third_party/build/srtp /I../../third_party/srtp/crypto/include /I../../third_party/srtp/include /I../.. /I../../third_party/BaseClasses /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjmedia_videodev--Win32-vc8-Debug\\" /Fd".\output\pjmedia_videodev--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjmedia_videodev--Win32-vc8-Debug\\" /Gd /TP /analyze- /errorReport:prompt "..\src\pjmedia-videodev\dshowclasses.cpp"
+         dshowclasses.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\build\.\output\pjmedia_videodev--Win32-vc8-Debug\pjmedia_videodev.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\lib\pjmedia-videodev-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(pjmedia_videodev) does not match the Library's OutputFile property value (pjmedia-videodev-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjmedia-videodev-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\pjmedia_videodev--Win32-vc8-Debug\\avi_dev.obj"
+         ".\output\pjmedia_videodev--Win32-vc8-Debug\\colorbar_dev.obj"
+         ".\output\pjmedia_videodev--Win32-vc8-Debug\\dshowclasses.obj"
+         ".\output\pjmedia_videodev--Win32-vc8-Debug\\dshow_dev.obj"
+         ".\output\pjmedia_videodev--Win32-vc8-Debug\\errno.obj"
+         ".\output\pjmedia_videodev--Win32-vc8-Debug\\ffmpeg_dev.obj"
+         ".\output\pjmedia_videodev--Win32-vc8-Debug\\sdl_dev.obj"
+         ".\output\pjmedia_videodev--Win32-vc8-Debug\\videodev.obj"
+         pjmedia_videodev.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\build\.\output\pjmedia_videodev--Win32-vc8-Debug\pjmedia_videodev.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\pjmedia_videodev--Win32-vc8-Debug\pjmedia_videodev.bsc" ".\output\pjmedia_videodev--Win32-vc8-Debug\\avi_dev.sbr" ".\output\pjmedia_videodev--Win32-vc8-Debug\\colorbar_dev.sbr" ".\output\pjmedia_videodev--Win32-vc8-Debug\\dshowclasses.sbr" ".\output\pjmedia_videodev--Win32-vc8-Debug\\dshow_dev.sbr" ".\output\pjmedia_videodev--Win32-vc8-Debug\\errno.sbr" ".\output\pjmedia_videodev--Win32-vc8-Debug\\ffmpeg_dev.sbr" ".\output\pjmedia_videodev--Win32-vc8-Debug\\sdl_dev.sbr" ".\output\pjmedia_videodev--Win32-vc8-Debug\\videodev.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\build\pjmedia_videodev.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.61

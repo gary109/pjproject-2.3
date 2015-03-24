@@ -1,0 +1,43 @@
+﻿已經開始建置於 2015/3/24 上午 11:57:18。
+     1>節點 4 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\pjsua2_lib.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../include /I../../pjmedia/include /I"../../pjlib-util/include" /I../../pjlib/include /I../../pjnath/include /ZI /nologo /W4 /WX- /Od /Oy- /D _LIB /D WIN32 /D PJ_WIN32=1 /D PJ_M_I386=1 /D _DEBUG /D DEBUG /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\output\pjsua2_lib--Win32-vc8-Debug\\" /Fd".\output\pjsua2_lib--Win32-vc8-Debug\\vc120.pdb" /FR".\output\pjsua2_lib--Win32-vc8-Debug\\" /Gd /TP /analyze- /errorReport:prompt ..\src\pjsua2\account.cpp ..\src\pjsua2\call.cpp ..\src\pjsua2\endpoint.cpp ..\src\pjsua2\json.cpp ..\src\pjsua2\media.cpp ..\src\pjsua2\persistent.cpp ..\src\pjsua2\presence.cpp ..\src\pjsua2\siptypes.cpp ..\src\pjsua2\types.cpp
+         account.cpp
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         call.cpp
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         endpoint.cpp
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         json.cpp
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         media.cpp
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         persistent.cpp
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         presence.cpp
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         siptypes.cpp
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         types.cpp
+     1>c:\users\9200\desktop\work\p2p\pjsip\pjproject-2.3\pjproject-2.3\pjmedia\include\pjmedia-codec\g7221.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         正在產生程式碼...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\.\output\pjsua2_lib--Win32-vc8-Debug\pjsua2_lib.lib) does not match the Library's OutputFile property value (C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\lib\pjsua2-lib-i386-Win32-vc8-Debug.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(pjsua2_lib) does not match the Library's OutputFile property value (pjsua2-lib-i386-Win32-vc8-Debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\pjsua2-lib-i386-Win32-vc8-Debug.lib" /NOLOGO ".\output\pjsua2_lib--Win32-vc8-Debug\\account.obj"
+         ".\output\pjsua2_lib--Win32-vc8-Debug\\call.obj"
+         ".\output\pjsua2_lib--Win32-vc8-Debug\\endpoint.obj"
+         ".\output\pjsua2_lib--Win32-vc8-Debug\\json.obj"
+         ".\output\pjsua2_lib--Win32-vc8-Debug\\media.obj"
+         ".\output\pjsua2_lib--Win32-vc8-Debug\\persistent.obj"
+         ".\output\pjsua2_lib--Win32-vc8-Debug\\presence.obj"
+         ".\output\pjsua2_lib--Win32-vc8-Debug\\siptypes.obj"
+         ".\output\pjsua2_lib--Win32-vc8-Debug\\types.obj"
+         pjsua2_lib.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\.\output\pjsua2_lib--Win32-vc8-Debug\pjsua2_lib.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\output\pjsua2_lib--Win32-vc8-Debug\pjsua2_lib.bsc" ".\output\pjsua2_lib--Win32-vc8-Debug\\account.sbr" ".\output\pjsua2_lib--Win32-vc8-Debug\\call.sbr" ".\output\pjsua2_lib--Win32-vc8-Debug\\endpoint.sbr" ".\output\pjsua2_lib--Win32-vc8-Debug\\json.sbr" ".\output\pjsua2_lib--Win32-vc8-Debug\\media.sbr" ".\output\pjsua2_lib--Win32-vc8-Debug\\persistent.sbr" ".\output\pjsua2_lib--Win32-vc8-Debug\\presence.sbr" ".\output\pjsua2_lib--Win32-vc8-Debug\\siptypes.sbr" ".\output\pjsua2_lib--Win32-vc8-Debug\\types.sbr"
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjproject-2.3\pjproject-2.3\pjsip\build\pjsua2_lib.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:05.68
